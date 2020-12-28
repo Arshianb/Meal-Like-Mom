@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.shapeofview.shapes.RoundRectView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background1"
+    android:id="@+id/frame"
+    android:elevation="5dp"
+    app:shape_roundRect_borderColor="@android:color/black"
+    app:shape_roundRect_borderWidth="2dp"
+    app:shape_roundRect_bottomLeftRadius="@dimen/dp_10"
+    app:shape_roundRect_bottomRightRadius="@dimen/dp_10"
+    app:shape_roundRect_topLeftRadius="@dimen/dp_10"
+    app:shape_roundRect_topRightRadius="@dimen/dp_10"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="visible"
+    >
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:background="@drawable/background2"
+        android:id="@+id/relativelayout"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        >
+
+        <com.github.florent37.shapeofview.shapes.CircleView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="112.5dp"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:layout_marginEnd="112.5dp"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:elevation="4dp"
+            app:shape_circle_borderColor="@android:color/black"
+            app:shape_circle_borderWidth="2dp"
+            tools:targetApi="lollipop"
+            android:id="@+id/user_image1"
+
+
+            >
+
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_person_add_black_24dp"
+
+                />
+
+        </com.github.florent37.shapeofview.shapes.CircleView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_default_edit_text"
+            android:paddingStart="5dp"
+            android:layout_margin="@dimen/standard_margin"
+            android:paddingLeft="5dp"
+            android:paddingEnd="0dp"
+            android:id="@+id/relativ_username"
+            android:paddingRight="0dp"
+            android:layout_below="@+id/user_image1"
+            >
+            <com.lib.customedittext.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="15"
+                android:id="@+id/username"
+                app:edt_background="@color/transparent"
+                app:edt_hint="Username"
+                app:edt_show_drawable="true"
+                app:edt_drawable_start="@drawable/ic_person_black"
+                app:edt_padding="10dp"
+                app:edt_text_hint_color="@android:color/darker_gray"
+                app:edt_text_color="@color/black"
+                app:edt_text_size="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="@drawable/selector_default_edit_text"
+            android:paddingStart="5dp"
+            android:id="@+id/relativ_password"
+            android:layout_below="@+id/relativ_username"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:paddingLeft="5dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            >
+            <com.lib.customedittext.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                app:edt_background="@color/transparent"
+                app:edt_hint="Password"
+                app:edt_show_drawable="true"
+                app:edt_password_toggle="true"
+                android:id="@+id/password"
+                app:edt_toggle_text_color="@color/black"
+                app:edt_drawable_start="@drawable/ic_vpn_key_black_24dp"
+                app:edt_padding="10dp"
+                app:edt_text_hint_color="@android:color/darker_gray"
+                app:edt_text_color="@color/black"
+                app:edt_text_size="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="@drawable/selector_default_edit_text"
+            android:paddingStart="5dp"
+            android:id="@+id/relativ_password_confrim"
+            android:layout_below="@+id/relativ_password"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:paddingLeft="5dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            >
+            <com.lib.customedittext.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                app:edt_background="@color/transparent"
+                app:edt_hint="Password"
+                app:edt_show_drawable="true"
+                app:edt_password_toggle="true"
+                android:id="@+id/password_confrim"
+                app:edt_toggle_text_color="@color/black"
+                app:edt_drawable_start="@drawable/ic_spellcheck_black_24dp"
+                app:edt_padding="10dp"
+                app:edt_text_hint_color="@android:color/darker_gray"
+                app:edt_text_color="@color/black"
+                app:edt_text_size="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_below="@+id/relativ_password_confrim"
+            android:id="@+id/prograsbar"
+            android:layout_marginLeft="165dp"
+            android:visibility="gone"
+            />
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:id="@+id/button1"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prograsbar"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin_2x"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:elevation="5dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            app:shape_roundRect_bottomLeftRadius="30dp"
+            app:shape_roundRect_bottomRightRadius="5dp"
+            app:shape_roundRect_topLeftRadius="5dp"
+            app:shape_roundRect_topRightRadius="30dp"
+            tools:ignore="RtlHardcoded">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/button1"
+                android:text="@string/welcome"
+                android:visibility="gone" />
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prograsbar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/standard_margin_2x"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_toRightOf="@+id/button1"
+            android:elevation="5dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            app:shape_roundRect_bottomLeftRadius="5dp"
+            app:shape_roundRect_bottomRightRadius="30dp"
+            app:shape_roundRect_topLeftRadius="30dp"
+            app:shape_roundRect_topRightRadius="5dp"
+            tools:ignore="RtlHardcoded"
+            android:id="@+id/button22"
+            >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/already_in"
+                android:visibility="gone" />
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:background="@drawable/background2"
+        android:id="@+id/relativelayout_with_ud_id"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_default_edit_text"
+            android:paddingStart="5dp"
+            android:layout_margin="@dimen/standard_margin"
+            android:id="@+id/ud_id_already1"
+            android:paddingLeft="5dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            >
+            <com.lib.customedittext.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="15"
+                app:edt_background="@color/transparent"
+                app:edt_hint="Username"
+                android:id="@+id/ud_id_already"
+                app:edt_show_drawable="true"
+                app:edt_drawable_start="@drawable/ic_person_black"
+                app:edt_padding="10dp"
+                app:edt_text_hint_color="@android:color/darker_gray"
+                app:edt_text_color="@color/black"
+                app:edt_text_size="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+        <ProgressBar
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_below="@id/ud_id_already1"
+            android:id="@+id/prograsbar2"
+            android:layout_marginLeft="165dp"
+            android:visibility="gone"
+            />
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:id="@+id/welcome_in_ud_id_exist_relativ"
+            android:layout_below="@id/prograsbar2"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="4dp"
+            app:shape_roundRect_bottomLeftRadius="5dp"
+            app:shape_roundRect_bottomRightRadius="30dp"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin_2x"
+            app:shape_roundRect_topLeftRadius="30dp"
+            app:shape_roundRect_topRightRadius="5dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/welcome_in_ud_id_exist"
+                android:text="welcome"
+                android:visibility="gone"/>
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_below="@id/prograsbar2"
+            android:id="@+id/he_dont_remember_username_relative"
+            android:layout_toRightOf="@+id/welcome_in_ud_id_exist_relativ"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="@dimen/standard_margin_2x"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            app:shape_roundRect_bottomLeftRadius="30dp"
+            app:shape_roundRect_bottomRightRadius="5dp"
+            app:shape_roundRect_topLeftRadius="5dp"
+            app:shape_roundRect_topRightRadius="30dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/he_dont_remember_username"
+            android:text="Don't remember ?"
+            android:visibility="gone"/>
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:background="@drawable/background2"
+        android:id="@+id/relativelayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_default_edit_text"
+            android:paddingStart="5dp"
+            android:layout_margin="@dimen/standard_margin"
+            android:id="@+id/username_already1"
+            android:paddingLeft="5dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            >
+            <com.lib.customedittext.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="15"
+                app:edt_background="@color/transparent"
+                app:edt_hint="Username"
+                android:id="@+id/username_already"
+                app:edt_show_drawable="true"
+                app:edt_drawable_start="@drawable/ic_person_black"
+                app:edt_padding="10dp"
+                app:edt_text_hint_color="@android:color/darker_gray"
+                app:edt_text_color="@color/black"
+                app:edt_text_size="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="@drawable/selector_default_edit_text"
+            android:paddingStart="5dp"
+            android:id="@+id/password_already1"
+            android:layout_below="@+id/username_already1"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:paddingLeft="5dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            >
+            <com.lib.customedittext.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                app:edt_background="@color/transparent"
+                app:edt_hint="Password"
+                app:edt_show_drawable="true"
+                app:edt_password_toggle="true"
+                android:id="@+id/password_already"
+                app:edt_toggle_text_color="@color/black"
+                app:edt_drawable_start="@drawable/ic_vpn_key_black_24dp"
+                app:edt_padding="10dp"
+                app:edt_text_hint_color="@android:color/darker_gray"
+                app:edt_text_color="@color/black"
+                app:edt_text_size="15sp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <com.hanks.htextview.fall.FallTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_already1"
+            android:layout_margin="@dimen/standard_margin"
+            android:singleLine="true"
+            android:textColor="@color/red"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            tools:text="wrong password"
+            android:textSize="@dimen/normal_fontt_size"
+            android:id="@+id/wrong_content"
+            android:visibility="gone"
+            />
+
+        <ProgressBar
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_below="@id/wrong_content"
+            android:id="@+id/prograsbar1"
+            android:layout_marginLeft="165dp"
+            android:visibility="gone"
+            />
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:id="@+id/welcome_already1"
+            android:layout_below="@id/prograsbar1"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginRight="4dp"
+            app:shape_roundRect_bottomLeftRadius="5dp"
+            app:shape_roundRect_bottomRightRadius="30dp"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin_2x"
+            app:shape_roundRect_topLeftRadius="30dp"
+            app:shape_roundRect_topRightRadius="5dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/welcome_already"
+                android:text="@string/welcome"
+                android:visibility="gone"/>
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_below="@id/prograsbar1"
+            android:id="@+id/new_in1"
+            android:layout_toRightOf="@+id/welcome_already1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="@dimen/standard_margin_2x"
+            android:layout_marginBottom="@dimen/standard_margin"
+            android:layout_marginRight="@dimen/standard_margin"
+            app:shape_roundRect_bottomLeftRadius="30dp"
+            app:shape_roundRect_bottomRightRadius="5dp"
+            app:shape_roundRect_topLeftRadius="5dp"
+            app:shape_roundRect_topRightRadius="30dp"
+            app:shape_roundRect_borderColor="@android:color/black"
+            app:shape_roundRect_borderWidth="2dp"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/new_in"
+                android:text="@string/new_in"
+                android:visibility="gone"/>
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+
+    </RelativeLayout>
+
+
+</com.github.florent37.shapeofview.shapes.RoundRectView>

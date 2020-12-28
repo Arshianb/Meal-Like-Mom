@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage.User.uploadPost">
+
+    <TextView
+        android:id="@+id/top_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Fooooooooooood"
+        android:textSize="@dimen/larg_font_size"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"/>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_below="@+id/top_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/image_upload_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Image"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/larg_font_size"
+                    android:padding="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"/>
+
+                <ImageView
+                    android:id="@+id/image_in_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/before_dinner"
+                    />
+
+
+                <EditText
+                    android:id="@+id/food_name_in_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="food name"
+                    android:maxLength="48"
+                    android:gravity="center"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"/>
+
+                <EditText
+                    android:id="@+id/content_in_upload"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:hint="how to make this food"
+                    android:layout_margin="16dp"
+                    android:maxLines="5"/>
+
+                <TextView
+                    android:id="@+id/video_upload_txt"
+                    android:background="@color/colorPrimary"
+                    android:textSize="@dimen/larg_font_size"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Video"
+                    android:padding="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:textColor="@color/white"
+                    />
+
+                <VideoView
+                    android:id="@+id/video_view_in_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <TextView
+                    android:id="@+id/buffering_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Materials"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:layout_marginBottom="@dimen/standard_margin"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/larg_font_size"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/first_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material one"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+
+
+                    <TextView
+                        android:id="@+id/first_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/second_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material two"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/second_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/third_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material three"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/third_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/fourth_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material four"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/fourth_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/fifth_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material five"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/fifth_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/sixth_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material six"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/sixth_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_six"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/seventh_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material seven"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/seventh_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_seven"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/eight_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material eight"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/eight_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_eight"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/nine_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material nine"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/nine_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_nine"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/ten_mat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="material ten"
+                        android:maxLines="3"
+                        android:maxLength="40"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/ten_mat_added"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/add_ten"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/add_drawble"
+                        android:layout_marginRight="@dimen/standard_margin"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorPrimary"
+                        android:text="add"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/description_in_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="16dp"
+                    android:maxLines="8"
+                    android:hint="food description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Food Type"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/standard_margin"
+                    android:textSize="@dimen/larg_font_size"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/dinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="dinner"
+                        android:layout_weight="1"
+                        android:checked="false"/>
+
+                    <CheckBox
+                        android:layout_weight="1"
+                        android:id="@+id/breakfast"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="breakfast"
+                        android:checked="false"/>
+
+                    <CheckBox
+                        android:layout_weight="1"
+                        android:id="@+id/lunch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lunch"
+                        android:checked="false"/>
+
+                    <CheckBox
+                        android:layout_weight="1"
+                        android:id="@+id/dessert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="dessert"
+                        android:checked="false"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/bottom_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            >
+
+            <Button
+                android:id="@+id/back_in_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="1dp"
+                android:text="back"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/upload_image_in_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="1dp"
+                android:text="picUpload"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/upload_video_in_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="1dp"
+                android:text="vidUpload"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/upload_post_in_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="PostUpload"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

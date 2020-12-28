@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#ffff9431</color>
+  <color name="colorPrimaryDark">#ffD56600</color>
+  <color name="colorAccent">#a4b0be</color>
+  <color name="tab_normal">#8a8a8a</color>
+  <color name="tab_selected">#46a906</color>
+  <color name="bg_heart">#4d121d</color>
+  <color name="bg_block">#302e1c</color>
+  <color name="bg_motorcycle">#183002</color>
+  <color name="bg_bear">#2c1442</color>
+  <color name="bg_cloud">#1f1d1c</color>
+  <color name="white">#ffff</color>
+  <color name="white_for_login_button">#D8FFFFFF</color>
+  <color name="color_blue">#0652DD</color>
+  <color name="color_blue_selected">#1B1464</color>
+  <color name="color_orange">#F79F1F</color>
+  <color name="color_orange_selected">#EE5A24</color>
+  <color name="color_post_visited">#8e44ad</color>
+  <color name="color_post_not_visited">#2c3e50</color>
+  <color name="Relative_layout_background">#A4000000</color>
+  <color name="Edit_text_in_login">#D2000000</color>
+  <color name="black">#000000</color>
+  <color name="background">#60FFFFFF</color>
+  <color name="background1">#51000000</color>
+  <color name="background2">#BC000000</color>
+  <color name="transparent">#00000000</color>
+  <color name="red">#FF0000</color>
+  <color name="framlayout">#39FFFFFF</color>
+
+
+
+
+
+  <array name="colors">
+    <item name="all" type="color">#827f93</item>
+    <item name="design" type="color">#c467f4</item>
+    <item name="ios" type="color">#3b9aee</item>
+    <item name="android" type="color">#9bc53d</item>
+    <item name="web" type="color">#f4a261</item>
+    <item name="business" type="color">#1ed2bb</item>
+    <item name="research" type="color">#778da9</item>
+    <item name="sales" type="color">#20bf55</item>
+    <item name="quality" type="color">#9f9fed</item>
+    <item name="customer" type="color">#fc6177</item>
+    <item name="other" type="color">#bcbcbc</item>
+  </array>
+
+  <color name="divider">#b2b6c6</color>
+
+</resources>

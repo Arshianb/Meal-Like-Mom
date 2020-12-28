@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="56dp"
+       android:id="@+id/fragment"
+       />
+
+    <com.iammert.library.readablebottombar.ReadableBottomBar
+        android:layout_width="match_parent"
+        android:id="@+id/buttombar"
+        android:layout_height="56dp"
+        app:rbb_tabs="@xml/tabs"
+        app:rbb_textColor="@color/white"
+        app:rbb_indicatorHeight="4dp"
+        app:rbb_activeItemType="text"
+        app:rbb_indicatorColor="@color/white"
+        app:rbb_backgroundColor="@color/black"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>

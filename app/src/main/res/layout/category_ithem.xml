@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.shapeofview.shapes.RoundRectView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:shape_roundRect_bottomLeftRadius="0dp"
+    app:shape_roundRect_bottomRightRadius="0dp"
+    app:shape_roundRect_topLeftRadius="0dp"
+    app:shape_roundRect_topRightRadius="0dp"
+    android:id="@+id/roundRect"
+    app:shape_dot_spacing="2dp"
+    app:shape_edge_position="right|left"
+    app:shape_dottedEdgesCutCorner_bottomLeftSize="8dp"
+    app:shape_dottedEdgesCutCorner_bottomRightSize="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:shape_roundRect_borderColor="@android:color/white"
+    app:shape_roundRect_borderWidth="1dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:src="@drawable/afternoon"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/pic"
+            />
+
+
+            <!-- YOUR CONTENT -->
+
+
+
+
+
+        <com.yj.app.custom.customEnglishTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_gravity="center"
+            tools:text="Dinner"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_fontt_size"
+            android:layout_margin="@dimen/standard_margin"
+            android:id="@+id/what_is_it"
+            />
+
+
+    </LinearLayout>
+
+
+</com.github.florent37.shapeofview.shapes.RoundRectView>

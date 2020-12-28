@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">FragmentRigger</string>
+  <string name="sharedElement">SharedElement</string>
+
+  <string name="user_name" translatable="false">User name</string>
+  <string name="password" translatable="false">Password</string>
+  <string name="remember_me" translatable="false">remember me</string>
+  <string name="forget_password" translatable="false">Forget Password?</string>
+  <string name="lazyload">LazyLoad</string>
+  <string name="replacefragment">ReplaceFragment</string>
+  <string name="onBackPressed_show">onBackPressed_Show</string>
+  <string name="showfragment">ShowFragment</string>
+  <string name="startfragmentforresult">StartFragmentForResult</string>
+  <string name="delay_startfragment">Delay StartFragment</string>
+  <string name="startfragment">StartFragment</string>
+  <string name="wechat">WeChat</string>
+  <string name="contacts">Contacts</string>
+  <string name="discover">Discover</string>
+  <string name="me">Me</string>
+  <string name="loading">Loading…</string>
+  <string name="startActivity" translatable="false">StartActivity</string>
+</resources>

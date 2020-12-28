@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/ic_home_black_24dp"
+        text="@string/home"  />
+
+    <tab
+        drawable="@drawable/ic_apps_black_24dp"
+        text="@string/category"  />
+
+    <tab
+        drawable="@drawable/ic_search_black_24dp"
+        text="@string/Search"  />
+
+    <tab
+        drawable="@drawable/ic_favorite_black_24dp"
+        text="@string/favorite" />
+
+    <tab
+        drawable="@drawable/ic_account_circle_black_24dp"
+        text="@string/profile"  />
+
+
+
+</tabs>

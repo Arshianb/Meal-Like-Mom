@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="fruits">
+        <item>Avocado</item>
+        <item>Blueberry</item>
+        <item>Coconut</item>
+        <item>Kiwifruit</item>
+        <item>Lemon</item>
+        <item>Cherries</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Mango</item>
+        <item>Orange</item>
+        <item>Watermelon</item>
+        <item>Strawberries</item>
+        <item>Durian</item>
+        <item>Guava</item>
+        <item>Jackfruit</item>
+        <item>Olive</item>
+        <item>Pear</item>
+        <item>Sugar-apple</item>
+        <item>Pineapple</item>
+    </array>
+
+    <string-array name="uploadImages">
+        <item>Pick from gallery</item>
+        <item>Click from camera</item>
+        <item>Remove image</item>
+    </string-array>
+
+    <string-array name="itemIds">
+        <item>gallery_image</item>
+        <item>camera_image</item>
+        <item>remove_image</item>
+    </string-array>
+
+
+</resources>

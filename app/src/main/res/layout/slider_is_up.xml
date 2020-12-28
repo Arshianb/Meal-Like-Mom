@@ -1,0 +1,193 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dragView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:clickable="true"
+    android:focusable="false"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/color_orange"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            >
+
+
+
+            <com.github.florent37.shapeofview.shapes.CircleView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="3dp"
+                android:elevation="4dp"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginRight="@dimen/standard_margin"
+                app:shape_circle_borderColor="@android:color/black"
+                app:shape_circle_borderWidth="2dp"
+                >
+
+                <!-- YOUR CONTENT -->
+
+                <ImageView
+                    android:id="@+id/image_in_toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/user_male_icon" />
+            </com.github.florent37.shapeofview.shapes.CircleView>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+
+
+                <com.hanks.htextview.fall.FallTextView
+                    android:id="@+id/title_in"
+                    android:layout_width="270dp"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:freezesText="true"
+                    android:scrollHorizontally="true"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/larg_font_size"
+                    android:maxLength="30"
+                    tools:text="TITLE" />
+
+
+                <TextView
+                    android:id="@+id/content"
+                    android:text="START | lunch 20.00 | Dinner 60.00 | Travel 60.00 | Doctor 5000.00 | lunch 20.00 | Dinner 60.00 | Travel 60.00 | Doctor 5000.00 | END"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_marginRight="@dimen/standard_margin"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:freezesText="true"
+                    android:scrollHorizontally="true"
+                    android:textSize="@dimen/normal_fontt_size"
+                    tools:text="i really love this food please give me comment" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@color/transparent"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:layout_marginStart="@dimen/standard_margin"
+                android:id="@+id/liked"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <VideoView
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                tools:src="@drawable/food_head" />
+
+
+            <com.yj.app.custom.customEnglishTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin_2x"
+                android:layout_marginTop="@dimen/standard_margin"
+                android:text="MATERIAL :"
+                android:textColor="@color/black"
+                android:textSize="@dimen/larg_font_size" />
+
+
+            <TextView
+                android:id="@+id/material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/standard_margin"
+                android:textColor="@color/black"
+                tools:ignore="MissingPrefix"
+                tools:text="153  grams 00 flour (1 cup plus 1 tablespoon) 153 grams all-purpose flour (1 cup plus 1 tablespoon and 2 teaspoons) 8  grams fine sea salt (1 teaspoon) 2  grams active dry yeast (3/4 teaspoon) 4  grams extra-virgin olive oil (1 teaspoon)" />
+
+            <com.yj.app.custom.customEnglishTextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin_2x"
+                android:layout_marginTop="@dimen/standard_margin"
+                android:text="DESCRIPTION : "
+                android:textColor="@color/black"
+                android:textSize="@dimen/larg_font_size"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/repice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin"
+                android:layout_marginTop="@dimen/standard_margin_2x"
+                android:layout_marginRight="@dimen/standard_margin"
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:textColor="@color/black"
+                android:visibility="invisible"
+                tools:ignore="MissingPrefix"
+                tools:text="Plan ahead. Make the dough at least a day before you intend to make pizza, to give it enough time to rise.  Buy a food scale on which to weigh the ingredients for dough and toppings. Itâ€™s a smart investment: In baking, weight is a more accurate measurement than volume.  You will need a cooking surface. This could be a pizza stone or steel, or four to six unglazed quarry tiles measuring 6 inches by 6 inches from a building supply store. Whichever you use, heat in a very hot oven for at least an hour before cooking." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

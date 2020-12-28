@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/search_AppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!--<android.support.v7.widget.AppCompatImageView-->
+                    <!--android:layout_width="@dimen/_35dp_"-->
+                    <!--android:layout_height="@dimen/_35dp_"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_margin="@dimen/standard_margin"-->
+                    <!--android:src="@drawable/ic_inbox_black_24dp"-->
+                    <!--android:tint="@android:color/white" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:text="Questions"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="20sp" />-->
+
+
+                <!--<android.support.v7.widget.SearchView-->
+                    <!--android:id="@+id/search"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--app:queryBackground="@color/colorPrimary"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@color/colorPrimary" />-->
+
+
+
+                <com.arlib.floatingsearchview.FloatingSearchView
+                android:id="@+id/floating_search_view"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                app:floatingSearch_searchHint="Search..."
+                app:floatingSearch_suggestionsListAnimDuration="250"
+                app:floatingSearch_showSearchKey="false"
+                app:floatingSearch_leftActionMode="showSearch"
+                app:floatingSearch_close_search_on_keyboard_dismiss="true"/>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+        <FrameLayout
+            android:id="@+id/frameee"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

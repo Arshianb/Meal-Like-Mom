@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="st">8dp</dimen>
+    <dimen name="largefont">16sp</dimen>
+    <dimen name="normalfont">12sp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="standard_margin_2x">16dp</dimen>
+    <dimen name="action_button_size">32dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <dimen name="normal_fontt_size">14dp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="larg_font_size">20sp</dimen>
+    <dimen name="standard_card_evelation">5dp</dimen>
+    <dimen name="standard_card_radius">20dp</dimen>
+    <dimen name="standard_margin">8dp</dimen>
+    <dimen name="appbar_hight">40dp</dimen>
+    <dimen name="margin_top">4dp</dimen>
+    <dimen name="ithem_hight">150dp</dimen>
+    <dimen name="right_and_left_padding">10dp</dimen>
+    <dimen name="top_and_bottom_padding">5dp</dimen>
+
+
+    <dimen name="_35dp_">35dp</dimen>
+
+
+
+
+    <dimen name="search_view_inset">5dp</dimen>
+    <dimen name="sliding_search_view_header_height">250dp</dimen>
+</resources>

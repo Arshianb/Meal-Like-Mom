@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/post_ithem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/standard_margin"
+    android:layout_marginTop="@dimen/margin_top"
+    android:layout_marginRight="@dimen/standard_margin"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="@dimen/standard_card_evelation">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/standard_margin"
+            android:elevation="@dimen/standard_card_evelation"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:id="@+id/item_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/food_head" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_play_circle_outline_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/larg_font_size"
+            tools:text="food title" />
+
+
+        <TextView
+            android:id="@+id/content_ofThePost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ffffff"
+            android:layout_marginLeft="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_fontt_size"
+            tools:text="The word is considered obscene but is commonly used in many informal and familiar situations . It is unclear whether the word has always been considered vulgar or, if not, when it first came to be used to describe
+                      coss, the word has become increasingly less vulgar and more publicly acceptable, an example of the " />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:text="MATERIAL"
+            android:textColor="@color/black"
+            android:textSize="@dimen/largefont" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/standard_margin"
+                android:orientation="horizontal">
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:background="@drawable/button_backgrond"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:background="@drawable/button_backgrond"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+                <com.yj.app.custom.customFontText
+                    android:id="@+id/mat_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:paddingLeft="@dimen/right_and_left_padding"
+                    android:paddingTop="@dimen/top_and_bottom_padding"
+                    android:paddingRight="@dimen/right_and_left_padding"
+                    android:paddingBottom="@dimen/top_and_bottom_padding"
+                    android:text="reshte ye makarani"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <com.yj.app.custom.customEnglishTextView
+            android:id="@+id/date_postContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_font_size"
+            tools:text="1379/6/31" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
