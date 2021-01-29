@@ -49,14 +49,25 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 <br/><br/>
   
+<div align= "center">
+  
 |Login with username only|If this phone is used by a new user|If this phone is used by another user|
 |:-----------:|:-----------:|:-----------:|
 |<img src="gifs%20and%20images%20of%20project/1.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/2.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/3.gif" width = "300px">|
+<div/>
+<div align= "left">
+  
 > Left side will be displayed when the user phone ID was remains in the DB 
 
+<div/>
+
+<div align= "center">
+  
 |Different categories for different meals|Showing the posts item|Specifying the type of food and materials|
 |:-----------:|:-----------:|:-----------:|
 |<img src="gifs%20and%20images%20of%20project/4.jpg" width = "300px">|<img src="gifs%20and%20images%20of%20project/5.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/6.gif" width = "300px">|
+
+<div/>
 
 <div align= "center">
 
