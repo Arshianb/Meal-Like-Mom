@@ -48,11 +48,12 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 > Internal of the post should be great and readable for whole users even amateurs
 
 <br/><br/>
-
+  
 |Login with username only|If this phone is used by a new user|
 |:-----------:|:-----------:|
 |<img src="gifs%20and%20images%20of%20project/1.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/2.gif" width = "300px">|
 > Left side will be displayed when the user phone ID was remains in the DB 
+
 
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
