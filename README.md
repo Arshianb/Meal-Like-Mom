@@ -13,11 +13,8 @@ Recipes for different foods in general categories (dinner:pizza:, lunch:poultry_
 
 # About The Project
 After the user signed up for the first time, his phone Id will be saved on the database, and after the program was deleted, he could enter the program only by username because his phone id remains in DB. 
-
 The user's own internal database will be used if he has no connection, for better performance of the user.
-
 Database tables are interconnected by Id for accurate classification of cooking tutorials. 
-
 This programmed by `Android Studio` and its source codes are in the **master branch**.
 
 ## Demo
