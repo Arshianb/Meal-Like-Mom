@@ -24,6 +24,18 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 - Materials
 
 > The item of each post was tried that as much as possible to give the user enough information about the intended post.
+<br/>
+<br/>
+
+<img src="gifs%20and%20images%20of%20project/Post.jpg" align="right" width = "30%" />
+
+### Post
+- The photo selected by the user
+- Title
+- Content
+- Materials
+
+> The item of each post was tried that as much as possible to give the user enough information about the intended post.
 
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
