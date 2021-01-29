@@ -16,7 +16,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 ## Demo
 
-
+<div>
 <img src="gifs%20and%20images%20of%20project/post%20Item.jpg" align="right" width = "30%" />
 
 ### Post item
@@ -29,8 +29,9 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 > The item of each post was tried that as much as possible to give the user enough information about the intended post.
 
-<br/><br/><br/>
+ <div/>
 
+<div>
 <img src="gifs%20and%20images%20of%20project/Post.jpg" align="right" width = "30%" />
 
 ### Inside of each post
@@ -47,7 +48,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 > Internal of the post should be great and readable for whole users even amateurs
 
-<br/><br/>
+ <div/>
   
 <div align= "center">
   
