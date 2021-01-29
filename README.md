@@ -42,7 +42,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 - Video
 - Description
 
-> The item of each post was tried that as much as possible to give the user enough information about the intended post.
+> Internal of the post should be great and readable for whole users even amateurs
 
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
