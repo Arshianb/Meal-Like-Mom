@@ -58,19 +58,11 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 |:-----------:|:-----------:|:-----------:|
 |<img src="gifs%20and%20images%20of%20project/4.jpg" width = "300px">|<img src="gifs%20and%20images%20of%20project/5.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/6.gif" width = "300px">|
 
-<div align= "right">
-  
-  |How the users share the post|
-  |:-----------:|
-  |<img src="gifs%20and%20images%20of%20project/7.gif" width = "300px">|
+<div align= "center">
 
-<div/>
-
-<div align= "left">
-  
-  |Viewing a post that has just been shared|
-  |:-----------:|
-  |<img src="gifs%20and%20images%20of%20project/8.gif" width = "300px">|
+  |How the users share the post|Viewing a post that has just been shared|
+  |:-----------:|:-----------:|
+  |<img src="gifs%20and%20images%20of%20project/7.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/8.gif" width = "300px">|
 
 <div/>
 
