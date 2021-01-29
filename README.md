@@ -77,7 +77,11 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 <div/>
 
+<div align= "center">
+  
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
 
 Check my [:link: Linked in page](https://www.linkedin.com/in/arshia-nikbakht).
+
+<div/>
