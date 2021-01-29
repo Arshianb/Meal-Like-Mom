@@ -41,11 +41,17 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 **Internal content of the post**
 - Video
-- Video
+- Materials
 - Description
 <br/>
 
 > Internal of the post should be great and readable for whole users even amateurs
+<br/><br/>
+
+|This page will be displayed when the user phone ID was remains in the DB|
+|:-----------:|
+|<img src="gifs%20and%20images%20of%20project/1.gif" >|
+
 
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
