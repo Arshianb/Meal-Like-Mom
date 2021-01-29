@@ -25,6 +25,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 - Title
 - Content
 - Materials
+<br/><br/>
 
 > The item of each post was tried that as much as possible to give the user enough information about the intended post.
 
@@ -41,6 +42,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 - Video
 - Video
 - Description
+<br/>
 
 > Internal of the post should be great and readable for whole users even amateurs
 
