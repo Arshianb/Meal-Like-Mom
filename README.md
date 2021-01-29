@@ -16,7 +16,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 # Demo
 
-### Post item
+## Post item
 
 <img src="gifs%20and%20images%20of%20project/post%20Item.jpg" align="right" width = "30%" />
 
@@ -29,7 +29,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 
 
-### Inside of each post
+## Inside of each post
 
 <img src="gifs%20and%20images%20of%20project/Post.jpg" align="right" width = "30%" />
 
