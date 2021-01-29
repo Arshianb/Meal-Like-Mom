@@ -16,9 +16,10 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 ## Demo
 
-### Post item
 
 <img src="gifs%20and%20images%20of%20project/post%20Item.jpg" align="right" width = "30%" />
+
+### Post item
 
 - The photo selected by the user
 - Title
@@ -29,9 +30,9 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 <br/><br/><br/>
 
-### Inside of each post
-
 <img src="gifs%20and%20images%20of%20project/Post.jpg" align="right" width = "30%" />
+
+### Inside of each post
 
 #### Header
 - Title
