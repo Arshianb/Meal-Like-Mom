@@ -69,6 +69,8 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 |:-----------:|:-----------:|:-----------:|
 |<img src="gifs%20and%20images%20of%20project/4.jpg" width = "300px">|<img src="gifs%20and%20images%20of%20project/5.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/6.gif" width = "300px">|
 
+>As I said before we have categories on the left side, how to display posts in the middle, and the method of specifying the necessary ingredients and the name of the food is shown on the right side
+
 <div/>
 
 <div align= "center">
