@@ -38,6 +38,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 **Header**
 - Title
 - Content text
+
 **Internal content of the post**
 - Video
 - Video
