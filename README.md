@@ -66,10 +66,13 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 <div/>
 
+<div align= "left">
+  
   |Viewing a post that has just been shared|
   |:-----------:|
   |<img src="gifs%20and%20images%20of%20project/8.gif" width = "300px">|
 
+<div/>
 
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
