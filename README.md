@@ -15,7 +15,7 @@ Recipes for different foods in general categories (dinner:pizza:, lunch:poultry_
 After the user Sign up to the app for the first time, his phone id saved in the database, and the next time after the program was deleted, he enters the program only with a username because his phone id remains in DB. If the user's phone is offline, the phone's own internal database will be used for better performance. Database tables are interconnected with the help of ID for accurate classification of cooking videos. `Android Studio` source codes are in the **master branch**.
 
 ## Demo
-<img src="gifs%20and%20images%20of%20project/post%20Item.jpg" align="right" width = "275px" height="275px"/>
+<img src="gifs%20and%20images%20of%20project/post%20Item.jpg" align="right" width = "300px" height="275px"/>
 
 ### Post item
 - The photo selected by the user
