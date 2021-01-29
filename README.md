@@ -54,6 +54,13 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 |<img src="gifs%20and%20images%20of%20project/1.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/2.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/3.gif" width = "300px">|
 > Left side will be displayed when the user phone ID was remains in the DB 
 
+|Different categories for different meals|Showing the posts item|Specifying the type of food and materials|
+|:-----------:|:-----------:|:-----------:|
+|<img src="gifs%20and%20images%20of%20project/4.jpg" width = "300px">|<img src="gifs%20and%20images%20of%20project/5.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/6.gif" width = "300px">|
+
+|How the users share the post|Viewing a post that has just been shared|
+|:-----------:|:-----------:|
+|<img src="gifs%20and%20images%20of%20project/7.jpg" width = "350px">|<img src="gifs%20and%20images%20of%20project/8.gif" width = "350px">|
 
 ## Powered by
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of Isfahan University-**
