@@ -12,9 +12,12 @@
 Recipes for different foods in general categories (dinner:pizza:, lunch:poultry_leg:, breakfast:egg:, dessert:tropical_drink:, and appetizers:fries:) and finer categories, including food ingredients, help the user find the food he likes faster and easier :mag_right:. It can also be a good source of funding for skilled chefs to become famous with the videos they share in the program :star:, or to get an order :raised_hand:, or even to price their cooking videos :exclamation:.
 
 # About The Project
-After the user signs up into the app for the first time, his phone Id saved in the database, and the next time after the program was deleted, he enters the program only by username because his phone id remains in DB. 
-If the user's phone lost the internet, its own internal database will be used for better performance of the user.
+After the user signed up for the first time, his phone Id will be saved on the database, and after the program was deleted, he could enter the program only by username because his phone id remains in DB. 
+
+The user's own internal database will be used if he has no connection, for better performance of the user.
+
 Database tables are interconnected by Id for accurate classification of cooking tutorials. 
+
 This programmed by `Android Studio` and its source codes are in the **master branch**.
 
 ## Demo
