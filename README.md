@@ -49,9 +49,9 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 <br/><br/>
   
-|Login with username only|If this phone is used by a new user|
-|:-----------:|:-----------:|
-|<img src="gifs%20and%20images%20of%20project/1.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/2.gif" width = "300px">|
+|Login with username only|If this phone is used by a new user|If this phone is used by another user|
+|:-----------:|:-----------:|:-----------:|
+|<img src="gifs%20and%20images%20of%20project/1.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/2.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/3.gif" width = "300px">|
 > Left side will be displayed when the user phone ID was remains in the DB 
 
 
