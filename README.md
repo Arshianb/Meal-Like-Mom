@@ -45,7 +45,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 - Video
 - Materials
 - Description
-<br/>
+<br/><br/><br/>
 
 > Internal of the post should be great and readable for whole users even amateurs
 
