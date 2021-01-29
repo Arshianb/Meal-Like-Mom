@@ -46,6 +46,7 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 <br/>
 
 > Internal of the post should be great and readable for whole users even amateurs
+
 <br/><br/>
 
 |Login with username only|If this phone is used by a new user|
