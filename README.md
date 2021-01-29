@@ -34,10 +34,10 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 
 ### Inside of each post
 
-#### Header
+- #### Header
 - Title
 - Content text
-#### Internal content of the post
+- #### Internal content of the post
 - Video
 - Video
 - Description
