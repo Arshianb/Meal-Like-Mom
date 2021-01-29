@@ -80,7 +80,12 @@ After the user Sign up to the app for the first time, his phone id saved in the 
   |How the users share the post|Viewing a post that has just been shared|
   |:-----------:|:-----------:|
   |<img src="gifs%20and%20images%20of%20project/7.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/8.gif" width = "300px">|
+  
+<div align= "center">
+  
+>How the user can put his video, title, content, description, and foods material for their post is also shown on the left
 
+<div/>
 <div/>
 
 <div align= "center">
