@@ -24,16 +24,19 @@ After the user Sign up to the app for the first time, his phone id saved in the 
 - Materials
 
 > The item of each post was tried that as much as possible to give the user enough information about the intended post.
-<br/>
-<br/>
+<br/><br/>
+<br/><br/>
 
 <img src="gifs%20and%20images%20of%20project/Post.jpg" align="right" width = "30%" />
 
 ### Post
-- The photo selected by the user
+#### Header
 - Title
-- Content
-- Materials
+- Content text
+#### Post content
+- Video
+- Video
+- Description
 
 > The item of each post was tried that as much as possible to give the user enough information about the intended post.
 
