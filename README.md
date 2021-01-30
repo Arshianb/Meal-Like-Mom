@@ -7,7 +7,7 @@
 
 # Problem
 Almost all housewives have trouble in choosing food to cook! <br/>
-Something alike ":anger: What can I cook for dinner with my own materials? :anger:"
+Something like ":anger: What can I cook for dinner with my own materials? :anger:"
 
 # Goal
 :boom: Find the food that fits your materials as quickly as possible
