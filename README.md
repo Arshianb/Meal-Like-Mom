@@ -10,7 +10,7 @@ Almost all housewives have trouble in choosing food to cook! <br/>
 Something like ":anger: What can I cook for dinner with my own materials? :anger:"
 
 # Goal
-:boom: Find the food that fits your materials as quickly as possible
+:boom: Find the food as quickly as possible with your materials!
 
 ## How?
 Recipes for different foods in general categories (dinner:pizza:, lunch:poultry_leg:, breakfast:egg:, dessert:tropical_drink:, and appetizers:fries:) and finer categories, including food ingredients, help the user find the food he likes faster and easier :mag_right:. It can also be a good source of funding for skilled chefs to become famous with the videos they share in the program :star:, or to get an order :raised_hand:, or even to price their cooking videos :exclamation:.
