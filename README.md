@@ -6,7 +6,8 @@
 </p>
 
 # Problem
-:anger: Almost all housewives have trouble choosing food to cook
+Almost all housewives have trouble in choosing food to cook! <br/>
+Something alike "What can I cook for dinner with my own materials? :anger:"
 
 # Goal
 :boom: Find the food that fits your materials as quickly as possible
