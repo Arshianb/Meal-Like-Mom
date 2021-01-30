@@ -34,7 +34,7 @@ The aforementioned is programmed by `Android Studio`, `PHP`, and its source code
 - Materials
 <br/><br/><br/><br/><br/>
 
-> The item of each post was tried that as much as possible to give the user enough information about the intended post.
+> The item of each post was tried to as much as possible give the user enough information about the intended post.
 
  <div/>
 <hr>
@@ -54,19 +54,19 @@ The aforementioned is programmed by `Android Studio`, `PHP`, and its source code
 - Description
 <br/><br/><br/>
 
-> Internal of the post should be great and readable for whole users even amateurs
+> Internal of each post should be great and readable for whole users even amateurs!
 
  <div/>
   <hr>
 <div align= "center">
   
-|Login with username only|If this phone is used by a new user|If this phone is used by another user|
+|Login only by username|The phone is used by a new user|The phone is used by other users|
 |:-----------:|:-----------:|:-----------:|
 |<img src="gifs%20and%20images%20of%20project/1.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/2.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/3.gif" width = "300px">|
 <div/>
 <div align= "left">
   
-> Left side will be displayed when the user phone ID was remains in the DB 
+> Left side will be displayed when the user phone ID was remains in the DB and in right side will be displayed when the current user is not the previous user who logged in with this phone.
 
 <div/>
 
@@ -77,7 +77,7 @@ The aforementioned is programmed by `Android Studio`, `PHP`, and its source code
 |<img src="gifs%20and%20images%20of%20project/4.jpg" width = "300px">|<img src="gifs%20and%20images%20of%20project/5.gif" width = "300px">|<img src="gifs%20and%20images%20of%20project/6.gif" width = "300px">|
 <div align= "left">
   
->As I said before we have categories on the left side, how to display posts in the middle, and the method of specifying the necessary ingredients and the name of the food is shown on the right side
+>As I said before we have categories on the left side, how to display posts in the middle, and the method of specifying the necessary ingredients and the name of the food is shown on the right side.
 
 <div/>
 <div/>
@@ -90,7 +90,7 @@ The aforementioned is programmed by `Android Studio`, `PHP`, and its source code
   
 <div align= "left">
   
->How the user can put his video, title, content, description, and foods material for their post is also shown on the left
+>How users can put their posts video, title, content, description, and food material for their post is also shown on the left.
 
 <div/>
 <div/>
