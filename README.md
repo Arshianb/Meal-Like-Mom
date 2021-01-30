@@ -5,6 +5,9 @@
     <h1 align="center">Meal Like Mom</h1>
 </p>
 
+# Problem
+:anger: Almost all housewives have trouble choosing food to cook
+
 # Goal
 :boom: Find the food that fits your materials as quickly as possible
 
