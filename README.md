@@ -46,7 +46,7 @@ The aforementioned is programmed by `Android Studio`, `PHP`, and its source code
 
 **Header**
 - Title
-- Content text
+- Text content
 
 **Internal content of the post**
 - Video
