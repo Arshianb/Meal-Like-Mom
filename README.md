@@ -97,7 +97,7 @@ The aforementioned is programmed by `Android Studio`, `PHP`, and its source code
 
 <div align= "center">
   
-## Powered by
+## License
 **© Arshia Nikbakht, Meqdad Dehqan ([Github](https://github.com/mqddd) and [Linked in](https://www.linkedin.com/in/meqdad-dehqan-049a9b200/) page) -Students of University of Isfahan-**
 
 Check my [:link: Linked in page](https://www.linkedin.com/in/arshia-nikbakht).
