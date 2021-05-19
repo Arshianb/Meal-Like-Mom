@@ -16,10 +16,7 @@ Something like ":anger: What can I cook for dinner with my own materials? :anger
 Recipes for different foods in general categories (dinner:pizza:, lunch:poultry_leg:, breakfast:egg:, dessert:tropical_drink:, and appetizers:fries:) and finer categories, including food ingredients, help the user find the food he likes faster and easier :mag_right:. It can also be a good source of funding for skilled chefs to become famous with the videos they share in the program :star:, or to get an order :raised_hand:, or even to price their cooking videos :exclamation:.
 
 # About The Project
-After the user signed up for the first time, his phone Id will be saved on the database, and after the program was deleted, he could enter only by username because his phone id remains in DB. <br/>
-The user's own internal database will be applied if his Internet connection was lost! for better performance of the user.<br/>
-Database tables are interconnected by Id for accurate classification of cuisine tutorials.<br/>
-The aforementioned is programmed by `Android Studio`, `PHP`, and its source codes are in the **master branch**.
+After the user signed up for the first time, his phone Id will be saved on the database, and after the program was deleted, he can log in to his account only by username because his phone id still remains in Data Base. The user's phone internal database will be applied on application, when his Internet connection was lost! for better performance of the user. Database tables are interconnected by Id for accurate classification of cuisine tutorials. The aforementioned is programmed by `Android Studio`, `PHP`.
 
 ## Demo
 
